@@ -192,3 +192,8 @@ margin-top: 30px;
   color: #fff;
   border-color: #fff;
 }
+
+.contact-item i.fa-envelope { color: #f34a12; }    
+.contact-item i.fa-github { color: #333; }         
+.contact-item i.fa-linkedin { color: #002db5; }      
+.contact-item i.fa-twitter { color: #1DA1F2; }   
