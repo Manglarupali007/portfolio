@@ -134,29 +134,61 @@ margin-top: 30px;
   font-size: 2.5em;
   margin-bottom: 8px;
 }
-<section id="contact">
-  <h2>Contact Me</h2>
-  <p>Feel free to reach out for collaborations or any questions!</p>
+#contact {
+  background: linear-gradient(135deg, #007cf0, #00dfd8);
+  padding: 80px 20px;
+  color: white;
+}
 
-  <div class="contact-container">
-    <a href="mailto:rupali.mangla5055@gmail.com" class="contact-card" target="_blank">
-      <i class="fas fa-envelope"></i>
-      <span>Email</span>
-    </a>
+.contact-wrapper {
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+  backdrop-filter: blur(10px);
+}
 
-    <a href="https://github.com/Manglarupali007" class="contact-card" target="_blank">
-      <i class="fab fa-github"></i>
-      <span>GitHub</span>
-    </a>
+.contact-wrapper h2 {
+  font-size: 2.8rem;
+  margin-bottom: 10px;
+}
 
-    <a href="https://www.linkedin.com/in/rupali-mangla-3ab906324" class="contact-card" target="_blank">
-      <i class="fab fa-linkedin"></i>
-      <span>LinkedIn</span>
-    </a>
+.contact-wrapper p {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+}
 
-    <a href="https://x.com/RupaliMangla07" class="contact-card" target="_blank">
-      <i class="fab fa-twitter"></i>
-      <span>Twitter</span>
-    </a>
-  </div>
-</section>
+.contact-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.contact-item {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255,255,255,0.3);
+  border-radius: 15px;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.contact-item i {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.contact-item:hover {
+  transform: translateY(-10px) scale(1.05);
+  background: rgba(255,255,255,0.2);
+  color: #fff;
+  border-color: #fff;
+}
