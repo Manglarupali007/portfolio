@@ -134,3 +134,29 @@ margin-top: 30px;
   font-size: 2.5em;
   margin-bottom: 8px;
 }
+<section id="contact">
+  <h2>Contact Me</h2>
+  <p>Feel free to reach out for collaborations or any questions!</p>
+
+  <div class="contact-container">
+    <a href="mailto:rupali.mangla5055@gmail.com" class="contact-card" target="_blank">
+      <i class="fas fa-envelope"></i>
+      <span>Email</span>
+    </a>
+
+    <a href="https://github.com/Manglarupali007" class="contact-card" target="_blank">
+      <i class="fab fa-github"></i>
+      <span>GitHub</span>
+    </a>
+
+    <a href="https://www.linkedin.com/in/rupali-mangla-3ab906324" class="contact-card" target="_blank">
+      <i class="fab fa-linkedin"></i>
+      <span>LinkedIn</span>
+    </a>
+
+    <a href="https://x.com/RupaliMangla07" class="contact-card" target="_blank">
+      <i class="fab fa-twitter"></i>
+      <span>Twitter</span>
+    </a>
+  </div>
+</section>
