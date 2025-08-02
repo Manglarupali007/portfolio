@@ -197,3 +197,56 @@ margin-top: 30px;
 .contact-item i.fa-github { color: #333; }         
 .contact-item i.fa-linkedin { color: #002db5; }      
 .contact-item i.fa-twitter { color: #1DA1F2; }   
+
+
+
+
+#certifications {
+  background-color: #ffffff;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+#certifications h2 {
+  font-size: 2em;
+  color: blue;
+  margin-bottom: 40px;
+}
+
+.certification {
+  background-color: #f0f8ff;
+  border-left: 5px solid lightblue;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 700px;
+  text-align: left;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.certification h3 {
+  color: #004080;
+  margin-bottom: 10px;
+  font-size: 1.4em;
+}
+
+.certification p {
+  color: #333;
+  margin-bottom: 10px;
+  font-size: 1em;
+}
+
+.certification .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: darkblue;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.certification .btn:hover {
+  background-color: #0055aa;
+}
+
