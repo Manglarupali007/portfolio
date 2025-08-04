@@ -1,132 +1,248 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rupali's Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rupali Mangla | Portfolio</title>
+  <link rel="icon" type="image/png" href="favicon.png">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <!-- Devicon -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-  <div class="header-container">
-    <h1>Rupali Mangla</h1>
-    <nav>
-      <a href="#home">Home</a>
-      <a href="#about">About</a>
-      <a href="#skills">Skills</a>
-      <a href="#projects">Projects</a>
-         <a href="#certifications">Certifications</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </div>
-</header>
-    <section id="about">
-    <h2>Hi, I'm Rupali Mangla</h2>
-    <img src="profile.jpg" alt="Rupali's photo" class="profile-pic">
-    <h4>Always exploring, always learning—excited about where this journey in tech will take me.</h4>
-    <h4>A Passionate Learner and Aspiring Developer</h4>
-    <a href="#contact" class="btn">Contact Me</a>
-    </section>
-   <section id="skills">
-  <h2>My Skills</h2>
-  <ul class="skills-grid">
-    <li><i class="devicon-html5-plain colored"></i> HTML</li>
-    <li><i class="devicon-css3-plain colored"></i> CSS</li>
-    <li><i class="devicon-bootstrap-plain colored"></i> Bootstrap</li>
-    <li><i class="devicon-javascript-plain colored"></i> JavaScript</li>
-    <li><i class="devicon-python-plain colored"></i> Python</li>
-    <li><i class="devicon-c-plain colored"></i> C</li>
-    <li><i class="devicon-cplusplus-plain colored"></i> C++</li>
-    <li><i class="devicon-mysql-plain colored"></i> MySQL</li>
-    <li><i class="devicon-git-plain colored"></i> Git</li>
-    <li><i class="devicon-github-original colored"></i> GitHub</li>
-  </ul>
-</section>
-    <section id="projects">
-        <h2>Projects</h2>
-       <div class="project">
-  <h3>Weather Forecast</h3>
-<a href="https://manglarupali007.github.io/Weather-Forecast/" target="_blank" class="btn">Click Here</a>
-</div>
 
-         <div class="project">
-            <h3>FlipZone-A Post Courier Website</h3>
-            <a href=" https://manglarupali007.github.io/flipzone/" target="_blank" class="btn">Click Here</a>
+  <header>
+    <div class="header-container">
+      <h1>Rupali Mangla</h1>
+      <button class="nav-toggle" aria-label="open navigation">&#9776;</button>
+      <nav>
+        <a href="#about">Home</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section id="about">
+    <div class="about-wrap">
+      <img src="profile.jpg" alt="Rupali Mangla" class="profile-pic" loading="lazy">
+      <h2>Hi, I'm Rupali Mangla</h2>
+      <div class="tagline">Always exploring, always learning—excited about where this journey in tech will take me.</div>
+      <div class="subtitle">A Passionate Learner & Aspiring Developer</div>
+      <a href="#contact" class="btn-main">Contact Me</a>
+      <a href="#resume" class="btn-main">View Resume</a>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="container">
+      <h2>My Skills</h2>
+
+      <div class="skills-section">
+        <div class="skills-title">Languages</div>
+        <ul class="skills-list">
+          <li>
+            <i class="devicon-html5-plain colored"></i> HTML
+            <div class="skill-bar-container"><div class="skill-bar html" style="width:93%"></div></div>
+          </li>
+          <li>
+            <i class="devicon-css3-plain colored"></i> CSS
+            <div class="skill-bar-container"><div class="skill-bar css" style="width:90%"></div></div>
+          </li>
+          <li>
+            <i class="devicon-javascript-plain colored"></i> JavaScript
+            <div class="skill-bar-container"><div class="skill-bar js" style="width:83%"></div></div>
+          </li>
+          <li>
+            <i class="devicon-python-plain colored"></i> Python
+            <div class="skill-bar-container"><div class="skill-bar python" style="width:79%"></div></div>
+          </li>
+          <li>
+            <i class="devicon-c-plain colored"></i> C
+            <div class="skill-bar-container"><div class="skill-bar c" style="width:80%"></div></div>
+          </li>
+          <li>
+            <i class="devicon-cplusplus-plain colored"></i> C++
+            <div class="skill-bar-container"><div class="skill-bar cpp" style="width:73%"></div></div>
+          </li>
+        </ul>
+      </div>
+      
+      <div class="skills-section">
+        <div class="skills-title">Frameworks & Libraries</div>
+        <ul class="skills-list">
+          <li>
+            <i class="devicon-bootstrap-plain colored"></i> Bootstrap
+            <div class="skill-bar-container"><div class="skill-bar bootstrap" style="width:75%"></div></div>
+          </li>
+          <li>
+            <i class="devicon-tailwindcss-plain colored"></i> Tailwind
+            <div class="skill-bar-container"><div class="skill-bar tailwind" style="width:68%"></div></div>
+          </li>
+        </ul>
+      </div>
+      
+      <div class="skills-section">
+        <div class="skills-title">Tools</div>
+        <ul class="skills-list">
+          <li>
+            <i class="devicon-git-plain colored"></i> Git
+            <div class="skill-bar-container"><div class="skill-bar git" style="width:82%"></div></div>
+          </li>
+          <li>
+            <i class="devicon-github-original colored"></i> GitHub
+            <div class="skill-bar-container"><div class="skill-bar github" style="width:81%"></div></div>
+          </li>
+          <li>
+            <i class="devicon-vscode-plain colored"></i> VS Code
+            <div class="skill-bar-container"><div class="skill-bar vscode" style="width:84%"></div></div>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+
+        <div class="project-card">
+          <div class="project-title">Weather Forecast</div>
+          <div class="project-desc">A responsive weather application showing real-time forecasts for cities worldwide using open weather APIs.</div>
+          <div class="project-tech"><i class="devicon-html5-plain colored"></i> HTML &nbsp; <i class="devicon-css3-plain colored"></i> CSS &nbsp; <i class="devicon-javascript-plain colored"></i> JavaScript</div>
+          <div class="project-links">
+            <a href="https://manglarupali007.github.io/Weather-Forecast/" target="_blank">Live Demo</a>
+            <a href="https://github.com/Manglarupali007/Weather-Forecast" target="_blank">GitHub</a>
+          </div>
+        </div>
+        
+        <div class="project-card">
+          <div class="project-title">FlipZone – Post Courier Website</div>
+          <div class="project-desc">Web solution for online courier and goods transportation. Features user authentication, shipping tracking, and booking functionality.</div>
+          <div class="project-tech"><i class="devicon-bootstrap-plain colored"></i> Bootstrap &nbsp; <i class="devicon-javascript-plain colored"></i> JavaScript</div>
+          <div class="project-links">
+            <a href="https://manglarupali007.github.io/flipzone/" target="_blank">Live Demo</a>
+            <a href="https://github.com/Manglarupali007/flipzone" target="_blank">GitHub</a>
+          </div>
         </div>
 
-        <div class="project">
-  <h3>CityRide</h3>
-<a href="https://manglarupali007.github.io/CityRide/" target="_blank" class="btn">Click Here</a>
-</div>
-    </section>
+        <div class="project-card">
+          <div class="project-title">CityRide</div>
+          <div class="project-desc">A ride-sharing platform prototype that connects users for convenient, cost-effective city travel.</div>
+          <div class="project-tech"><i class="devicon-html5-plain colored"></i> HTML &nbsp; <i class="devicon-css3-plain colored"></i> CSS &nbsp; <i class="devicon-javascript-plain colored"></i> JavaScript</div>
+          <div class="project-links">
+            <a href="https://manglarupali007.github.io/CityRide/" target="_blank">Live Demo</a>
+            <a href="https://github.com/Manglarupali007/CityRide" target="_blank">GitHub</a>
+          </div>
+        </div>
 
-
-<section id="certifications">
-  <h2>Certifications & Achievements</h2>
-
-  <div class="certification">
-    <h3>Star Programmer - Top 50</h3>
-    <p>Recognized as Top 50 Performer | Year: 2025</p>
-    <a href="starpro.jpg" target="_blank" class="btn">View Certificate</a>
-  </div>
-
-<div class="certification">
-    <h3>DICE Event – Driver Fatigue Detection System</h3>
-    <p>Secured 5th Position for Project | Year: 2024</p>
-    <a href="RUPALI MANGLA_FIFTHPosition.pdf" target="_blank" class="btn">View Certificate</a>
-  </div>
-
-  <div class="certification">
-    <h3>Hack With Her - Hackathon</h3>
-    <p>Achieved Top 10 Position | Year: 2025</p>
-    <a href="HWH.jpg" target="_blank" class="btn">View Certificate</a>
-  </div>
-
-  <div class="certification">
-    <h3>Rapid Code Event</h3>
-    <p>Participation Certificate | Year: 2025</p>
-    <a href="RAPID.pdf" target="_blank" class="btn">View Certificate</a>
-  </div>
-
-  
-  <div class="certification">
-    <h3>AI Fundamentals Course</h3>
-    <p>Completed AI Course at University | Year: 2025</p>
-    <a href="AI_AKC.pdf" target="_blank" class="btn">View Certificate</a>
-  </div>
-</section>
-
-
-
-    
-  <section id="contact">
-  <div class="contact-wrapper">
-    <h2>Let's Connect</h2>
-  <p>Feel free to reach out for collaborations or any questions!</p>
-    <div class="contact-cards">
-      <a href="mailto:rupali.mangla5055@gmail.com" class="contact-item" target="_blank">
-        <i class="fas fa-envelope"></i>
-        <span>Email</span>
-      </a>
-      <a href="https://github.com/Manglarupali007" class="contact-item" target="_blank">
-        <i class="fab fa-github"></i>
-        <span>GitHub</span>
-      </a>
-      <a href="https://www.linkedin.com/in/rupali-mangla-3ab906324" class="contact-item" target="_blank">
-        <i class="fab fa-linkedin"></i>
-        <span>LinkedIn</span>
-      </a>
-      <a href="https://x.com/RupaliMangla07" class="contact-item" target="_blank">
-        <i class="fab fa-twitter"></i>
-        <span>Twitter</span>
-      </a>
+      </div>
     </div>
-  </div>
-</section>
-    <footer>
-        <p>© 2025 Rupali Mangla | All rights reserved.</p>
-    </footer>
+  </section>
+
+  <section id="certifications">
+    <h2>Certifications & Achievements</h2>
+    <div class="certs-grid">
+      <div class="certification-card">
+        <div class="cert-content">
+          <div class="cert-title">Star Programmer - Top 50</div>
+          <div class="cert-meta">Recognized Top 50 Performer | Year: 2025</div>
+          <a href="starpro.jpg" target="_blank" class="cert-link">View Certificate</a>
+        </div>
+      </div>
+      <div class="certification-card">
+        <div class="cert-content">
+          <div class="cert-title">DICE Event – Driver Fatigue Detection</div>
+          <div class="cert-meta">Secured 5th Position | Year: 2024</div>
+          <a href="RUPALI MANGLA_FIFTHPosition.pdf" target="_blank" class="cert-link">View Certificate</a>
+        </div>
+      </div>
+      <div class="certification-card">
+        <div class="cert-content">
+          <div class="cert-title">Hack With Her - Hackathon</div>
+          <div class="cert-meta">Achieved Top 10 Position | Year: 2025</div>
+          <a href="HWH.jpg" target="_blank" class="cert-link">View Certificate</a>
+        </div>
+      </div>
+     
+      <div class="certification-card">
+        <div class="cert-content">
+          <div class="cert-title">AI Fundamentals Course</div>
+          <div class="cert-meta">Completed at University | Year: 2025</div>
+          <a href="AI_AKC.pdf" target="_blank" class="cert-link">View Certificate</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="resume">
+    <h3 class="heading">My Resume</h3>
+    <a href="Rupali_Mangla_Resume.pdf" target="_blank" class="btn-main">Download PDF</a>
+    <a href="Rupali_Mangla_Resume.docx" target="_blank" class="btn-main">Download DOCX</a>
+  </section>
+
+  <section id="contact">
+    <div class="contact-wrapper">
+      <h2>Let's Connect</h2>
+      <p>Feel free to reach out for collaborations, opportunities, or queries!</p>
+      <div class="contact-cards">
+        <a href="mailto:rupali.mangla5055@gmail.com" class="contact-item" target="_blank">
+          <i class="fas fa-envelope"></i>
+          <span>Email</span>
+        </a>
+        <a href="https://github.com/Manglarupali007" class="contact-item" target="_blank">
+          <i class="fab fa-github"></i>
+          <span>GitHub</span>
+        </a>
+        <a href="https://www.linkedin.com/in/rupali-mangla-3ab906324" class="contact-item" target="_blank">
+          <i class="fab fa-linkedin"></i>
+          <span>LinkedIn</span>
+        </a>
+        <a href="https://x.com/RupaliMangla07" class="contact-item" target="_blank">
+          <i class="fab fa-twitter"></i>
+          <span>Twitter</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-socials">
+      <a href="https://github.com/Manglarupali007" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/rupali-mangla-3ab906324" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://x.com/RupaliMangla07" target="_blank"><i class="fab fa-twitter"></i></a>
+    </div>
+    <p>© 2025 Rupali Mangla | All rights reserved.</p>
+  </footer>
+
+  <button id="backToTop" title="Back to Top"><i class="fas fa-arrow-up"></i></button>
+
+  <script>
+    // Hamburger mobile nav toggle
+    const navToggle = document.querySelector('.nav-toggle');
+    const nav = document.querySelector('nav');
+    navToggle.addEventListener('click', () => {
+      nav.classList.toggle('active');
+    });
+
+    // Back to top button
+    const backToTopBtn = document.getElementById("backToTop");
+    window.addEventListener("scroll", function() {
+      if (window.scrollY > 250) backToTopBtn.style.display = "block";
+      else backToTopBtn.style.display = "none";
+    });
+    backToTopBtn.addEventListener('click', function(){
+      window.scrollTo({top:0,behavior:'smooth'});
+    });
+  </script>
 </body>
 </html>
